@@ -1,7 +1,9 @@
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
   cursor: pointer;
   span {
     display: block;
