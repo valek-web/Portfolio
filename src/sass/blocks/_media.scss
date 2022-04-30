@@ -1,0 +1,147 @@
+@media screen and (max-width: 1281px) {
+  .container {
+    max-width: 830px;
+  }
+  .promo {
+    padding: 200px 0 0 0;
+    height: 100vh;
+  }
+  .about-me {
+    &__skills {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .container {
+    max-width: 85%;
+  }
+  .header {
+    text-align: center;
+    &__links {
+      margin: 25px auto;
+    }
+  }
+
+  .above_title {
+    display: inline-block;
+  }
+
+  .about-me {
+    padding: 100px 0 100px 0;
+    &__wrapper {
+      gap: 25px;
+    }
+    &__photo {
+      width: 320px;
+    }
+    &__skills {
+      gap: 20px;
+      margin-top: 20px;
+    }
+    &__title {
+      line-height: 40px;
+      margin-top: 13px;
+    }
+    &__descr {
+      margin-top: 15px;
+    }
+  }
+
+  .social {
+    transform: translateY(-50%) translateX(-43%) rotate(-90deg);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .social {
+    display: none;
+  }
+  .container {
+    max-width: 95%;
+  }
+
+  .about-me {
+    padding: 70px 0 70px 0;
+    text-align: center;
+    &__info {
+      margin-top: 25px;
+    }
+    &__wrapper {
+      display: block;
+    }
+    &__photo {
+      width: 70%;
+      margin: 0 auto;
+    }
+    &__skills {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px 15px;
+      margin-top: 30px;
+      text-align: left;
+    }
+    &__title {
+      text-align: left;
+    }
+
+    &__descr {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .container {
+    max-width: 90%;
+  }
+  .promo {
+    .header {
+      text-align: left;
+      &__title {
+        font-size: 26px;
+        line-height: 39px;
+      }
+      &__links {
+        max-width: 100%;
+        .button {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .about-me {
+    padding: 40px 0 40px 0;
+    text-align: left;
+    &__wrapper {
+      display: block;
+    }
+    &__photo {
+      width: 100%;
+      height: 400px;
+      margin: 0 auto;
+    }
+    &__skills {
+      margin-top: 20px;
+      grid-template-columns: 1fr;
+      gap: 20px 0px;
+    }
+    &__title {
+      margin-top: 26px;
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    &__descr {
+      margin-top: 20px;
+    }
+  }
+  .above_title {
+    margin-top: 46px;
+  }
+
+  .main-menu {
+    min-width: 95%;
+  }
+}
