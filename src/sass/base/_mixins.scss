@@ -1,0 +1,10 @@
+@mixin circle {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 36px;
+  height: 36px;
+  background-color: $main_color;
+  z-index: -1;
+  border-radius: 100%;
+}

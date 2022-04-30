@@ -1,0 +1,25 @@
+.social {
+  color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) translateX(-38%) rotate(-90deg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 338px;
+  &__text {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  &__line {
+    width: 70px;
+    height: 2px;
+    background-color: #fff;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+}

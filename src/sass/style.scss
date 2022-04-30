@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 @import './base/variables';
+@import './base/mixins';
 
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -12,5 +14,24 @@
   margin: 0 auto;
 }
 
-@import './blocks/promo.scss';
-@import './blocks/button.scss';
+.above_title {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  position: relative;
+  padding-left: 10px;
+  z-index: 1;
+  &:before {
+    @include circle;
+    top: -20%;
+    left: 0;
+  }
+}
+
+@import './blocks/promo';
+@import './blocks/button';
+@import './blocks/hamburger';
+@import './blocks/social';
+@import './blocks/about-me';
+@import './blocks/skill';
