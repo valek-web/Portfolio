@@ -19,14 +19,18 @@
   font-weight: 700;
   font-size: 16px;
   position: relative;
-  padding-left: 10px;
   z-index: 1;
-  &:before {
-    @include circle;
-    top: -20%;
-    left: 0;
-  }
 }
+
+.title {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  margin-top: 6px;
+}
+
 @import './blocks/animation';
 @import './blocks/promo';
 @import './blocks/button';
@@ -36,4 +40,5 @@
 @import './blocks/skill';
 @import './blocks/main-menu';
 @import './blocks/bg_menu';
+@import './blocks/benefit';
 @import './blocks/media';

@@ -19,13 +19,12 @@
   }
   .header {
     text-align: center;
+    .above_title {
+      display: inline-block;
+    }
     &__links {
       margin: 25px auto;
     }
-  }
-
-  .above_title {
-    display: inline-block;
   }
 
   .about-me {
@@ -65,6 +64,9 @@
   .about-me {
     padding: 70px 0 70px 0;
     text-align: center;
+    .above_title {
+      display: inline-block;
+    }
     &__info {
       margin-top: 25px;
     }
@@ -96,6 +98,9 @@
     max-width: 90%;
   }
   .promo {
+    .above_title {
+      margin-top: 46px;
+    }
     .header {
       text-align: left;
       &__title {
@@ -137,11 +142,32 @@
       margin-top: 20px;
     }
   }
-  .above_title {
-    margin-top: 46px;
-  }
 
   .main-menu {
     min-width: 95%;
+  }
+  .benefit {
+    padding-bottom: 40px;
+    &__wrapper {
+      grid-template-columns: 1fr;
+      margin-top: 0;
+    }
+    .list {
+      margin-top: 40px;
+      &__element {
+        margin-top: 25px;
+      }
+      li {
+        &:nth-child(2) {
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+  .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 15px;
   }
 }

@@ -1,0 +1,89 @@
+.benefit {
+  background: $bg-color;
+  padding: 0 0 120px 0;
+  .above_title {
+    text-align: center;
+    &:before {
+      @include circle;
+      top: -20%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .title {
+    &::after {
+      @include line;
+      margin: 0 auto;
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+    color: #fff;
+  }
+  .list {
+    border-left: #fff solid 1px;
+    list-style-type: none;
+    position: relative;
+    &::before {
+      @include circle;
+      width: 15px;
+      height: 15px;
+      z-index: 1;
+      left: -8px;
+      top: -6px;
+    }
+
+    &__element {
+      display: flex;
+      position: relative;
+      padding-left: 100px;
+      margin-top: 75px;
+    }
+    &__descr {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      position: absolute;
+      left: 45px;
+      top: -15px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    &__subtitle {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    &__img {
+      position: absolute;
+      top: 15px;
+      left: 55px;
+      font-size: 23px;
+      z-index: 1;
+      &::before {
+        @include circle;
+        z-index: -1;
+        top: -10px;
+        left: -10px;
+      }
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 1px;
+        width: 45px;
+        background-color: #fff;
+        top: 7px;
+        left: -55px;
+      }
+    }
+  }
+}

@@ -3,6 +3,14 @@
   background: url(./../img/bg_promo.jpg) center center/ cover no-repeat;
   min-height: 100vh;
   .header {
+    .above_title {
+      padding-left: 10px;
+      &:before {
+        @include circle;
+        top: -20%;
+        left: 0;
+      }
+    }
     &__title {
       margin-top: 9px;
       font-style: normal;

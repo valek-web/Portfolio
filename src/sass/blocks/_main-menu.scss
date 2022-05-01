@@ -61,7 +61,7 @@
   &__social {
     width: 90px;
     position: absolute;
-    bottom: 47px;
+    bottom: calc(20vh + 47px);
     left: 50%;
     transform: translateX(-50%);
     display: flex;
