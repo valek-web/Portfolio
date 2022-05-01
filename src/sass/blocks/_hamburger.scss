@@ -1,10 +1,15 @@
 .hamburger {
   position: fixed;
-  top: 20px;
+  top: 30px;
   right: 30px;
   background-color: rgba(0, 0, 0, 0);
   border: none;
   cursor: pointer;
+  &-animation {
+    animation-name: hamburger;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+  }
   span {
     display: block;
     height: 3px;

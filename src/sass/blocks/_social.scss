@@ -18,8 +18,13 @@
     background-color: #fff;
   }
   a {
+    display: block;
+    transition: 0.6s;
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    &:hover {
+      color: #b0a2d1;
+    }
   }
 }

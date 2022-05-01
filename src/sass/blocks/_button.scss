@@ -9,4 +9,8 @@
   color: #ffffff;
   border: none;
   cursor: pointer;
+  transition: 0.6s;
+  &:hover {
+    background: #7053b4;
+  }
 }
