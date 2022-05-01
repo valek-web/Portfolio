@@ -6,9 +6,11 @@ const hamburger = document.querySelector('.hamburger')
 hamburger.addEventListener('click', () => {
   bg_menu.classList.toggle('bg_menu__active')
   main_menu.classList.toggle('main-menu__active')
+  hamburger.classList.toggle('hamburger-animation')
 })
 
 close_menu.addEventListener('click', () => {
   bg_menu.classList.toggle('bg_menu__active')
   main_menu.classList.toggle('main-menu__active')
+  hamburger.classList.toggle('hamburger-animation')
 })
