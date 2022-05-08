@@ -1,9 +1,9 @@
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1201px) {
   .container {
-    max-width: 830px;
+    max-width: 960px;
   }
   .promo {
-    padding: 200px 0 0 0;
+    padding: 200px 0 0 100px;
     height: 100vh;
   }
   .about-me {
@@ -14,6 +14,9 @@
 }
 
 @media screen and (max-width: 993px) {
+  .promo {
+    padding: 200px 0 0 0;
+  }
   .container {
     max-width: 85%;
   }
