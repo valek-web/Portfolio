@@ -1,6 +1,6 @@
 .benefit {
   background: $bg-color;
-  padding: 0 0 120px 0;
+  padding: 0 0 120px 100px;
   .above_title {
     text-align: center;
     &:before {
@@ -22,7 +22,6 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 60px;
     color: #fff;
-    padding-left: 100px;
   }
   .list {
     border-left: #fff solid 1px;

@@ -1,14 +1,36 @@
 @media screen and (max-width: 1201px) {
   .container {
-    max-width: 960px;
+    max-width: 820px;
   }
   .promo {
-    padding: 200px 0 0 100px;
+    padding: 200px 0 0 0;
     height: 100vh;
+  }
+
+  .benefit {
+    padding: 0 0 120px 0px;
   }
   .about-me {
     &__skills {
       grid-template-columns: 1fr;
+    }
+  }
+  .skills {
+    &__wrapper {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 7px;
+    }
+    &-item {
+      padding: 20px;
+      &__title {
+        margin-top: 5px;
+      }
+      &__descr {
+        font-weight: 500;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 5px;
+      }
     }
   }
 }
@@ -16,6 +38,12 @@
 @media screen and (max-width: 993px) {
   .promo {
     padding: 200px 0 0 0;
+  }
+
+  .skills {
+    &__wrapper {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
   .container {
     max-width: 85%;
@@ -57,6 +85,11 @@
 }
 
 @media screen and (max-width: 769px) {
+  .skills {
+    &__wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
   .social {
     display: none;
   }
@@ -115,6 +148,21 @@
         .button {
           width: 50%;
         }
+      }
+    }
+  }
+
+  .skills {
+    &__wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &-item {
+      padding: 30px;
+      &__title {
+        margin-top: 20px;
+      }
+      &__descr {
+        margin-top: 15px;
       }
     }
   }
