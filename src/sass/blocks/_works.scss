@@ -1,0 +1,32 @@
+.works {
+  background-color: $bg_color;
+  padding-bottom: 60px;
+  .above_title {
+    text-align: center;
+    &::after {
+      @include circle;
+      top: -20%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .title {
+    &:after {
+      @include line;
+      margin: 0 auto;
+    }
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    grid-template-rows: minmax(100px, 280px);
+    grid-auto-rows: minmax(100px, 280px);
+    margin-top: 60px;
+  }
+  .work img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
