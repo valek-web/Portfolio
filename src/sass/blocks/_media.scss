@@ -79,6 +79,12 @@
     }
   }
 
+  .works {
+    &__wrapper {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
   .social {
     transform: translateY(-50%) translateX(-43%) rotate(-90deg);
   }
@@ -125,6 +131,11 @@
 
     &__descr {
       text-align: left;
+    }
+  }
+  .works {
+    &__wrapper {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 }
@@ -220,5 +231,11 @@
     font-size: 24px;
     line-height: 36px;
     padding-bottom: 15px;
+  }
+
+  .works {
+    &__wrapper {
+      grid-template-columns: 1fr;
+    }
   }
 }
