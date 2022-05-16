@@ -9,6 +9,22 @@
   align-items: center;
   min-width: 338px;
   z-index: 3;
+  &__network {
+    display: flex;
+    a {
+      display: block;
+      transition: 0.6s;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      &:hover {
+        color: #b0a2d1;
+      }
+    }
+    div:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
   &__text {
     font-weight: 700;
     font-size: 16px;
@@ -17,15 +33,5 @@
     width: 70px;
     height: 2px;
     background-color: #fff;
-  }
-  a {
-    display: block;
-    transition: 0.6s;
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    &:hover {
-      color: #b0a2d1;
-    }
   }
 }
