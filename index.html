@@ -93,350 +93,491 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <section class="promo">
-      <div class="container">
-        <header class="header">
-          <div class="above_title"><span>Меня зовут Валентин</span></div>
-          <h1 class="header__title">
-            Я web-разработчик <br />
-            из города Воронеж
-          </h1>
-          <div class="header__links">
-            <button class="button">Портфолио</button>
-            <div class="header__link"><a href="#"> Про меня</a></div>
-          </div>
-        </header>
-        <button class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <aside class="social">
-          <div class="social__text">Социальные сети</div>
-          <div class="social__line"></div>
-          <div class="github">
-            <a href="https://github.com/valek-web"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-          </div>
-          <div class="vk">
-            <a href="https://vk.com/ziruanov"
-              ><i class="fa-brands fa-vk"></i
-            ></a>
-          </div>
-          <div class="telegram">
-            <a href="https://t.me/valek_120"
-              ><i class="fa-brands fa-telegram"></i
-            ></a>
-          </div>
-        </aside>
-        <nav class="main-menu">
-          <ul class="main-menu__links">
-            <li class="main-menu__element"><a href="">ПРО МЕНЯ</a></li>
-            <li class="main-menu__element"><a href="">МОЙ ОПЫТ</a></li>
-            <li class="main-menu__element"><a href="">МОИ НАВЫКИ</a></li>
-            <li class="main-menu__element"><a href="">МОИ РАБОТЫ</a></li>
-            <li class="main-menu__element"><a href="">ПРАЙС-ЛИСТ</a></li>
-            <li class="main-menu__element"><a href="">КОНТАКТЫ</a></li>
-          </ul>
-          <div class="main-menu__social">
-            <div class="github">
-              <a href=""><i class="fa-brands fa-github"></i></a>
+    <main>
+      <section class="promo">
+        <div class="container">
+          <header class="header">
+            <div class="above_title"><span>Меня зовут Валентин</span></div>
+            <h1 class="header__title">
+              Я web-разработчик <br />
+              из города Воронеж
+            </h1>
+            <div class="header__links">
+              <button class="button">Портфолио</button>
+              <div class="header__link"><a href="#"> Про меня</a></div>
             </div>
-            <div class="vk">
-              <a href=""><i class="fa-brands fa-vk"></i></a>
+          </header>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <aside class="social">
+            <div class="social__text">Социальные сети</div>
+            <div class="social__line"></div>
+            <div class="social__network">
+              <div class="github">
+                <a href="https://github.com/valek-web"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+              <div class="vk">
+                <a href="https://vk.com/ziruanov"
+                  ><i class="fa-brands fa-vk"></i
+                ></a>
+              </div>
+              <div class="telegram">
+                <a href="https://t.me/valek_120"
+                  ><i class="fa-brands fa-telegram"></i
+                ></a>
+              </div>
             </div>
-            <div class="telegram">
-              <a href=""><i class="fa-brands fa-telegram"></i></a>
+          </aside>
+          <nav class="main-menu">
+            <ul class="main-menu__links">
+              <li class="main-menu__element">
+                <a href="#about-me" class="main-menu__link">ПРО МЕНЯ</a>
+              </li>
+              <li class="main-menu__element">
+                <a href="#benefit" class="main-menu__link">МОЙ ОПЫТ</a>
+              </li>
+              <li class="main-menu__element">
+                <a href="#skills" class="main-menu__link">МОИ НАВЫКИ</a>
+              </li>
+              <li class="main-menu__element">
+                <a href="#works" class="main-menu__link">МОИ РАБОТЫ</a>
+              </li>
+              <li class="main-menu__element">
+                <a href="#prices" class="main-menu__link">ПРАЙС-ЛИСТ</a>
+              </li>
+              <li class="main-menu__element">
+                <a href="#contact" class="main-menu__link">КОНТАКТЫ</a>
+              </li>
+            </ul>
+            <div class="main-menu__social">
+              <div class="github">
+                <a href="https://github.com/valek-web"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+              <div class="vk">
+                <a href="https://vk.com/ziruanov"
+                  ><i class="fa-brands fa-vk"></i
+                ></a>
+              </div>
+              <div class="telegram">
+                <a href="https://t.me/valek_120"
+                  ><i class="fa-brands fa-telegram"></i
+                ></a>
+              </div>
+            </div>
+            <button class="main-menu__close"><span></span><span></span></button>
+          </nav>
+          <div class="bg_menu"></div>
+        </div>
+      </section>
+      <section class="about-me" id="about-me">
+        <div class="container">
+          <div class="about-me__wrapper">
+            <div class="about-me__photo">
+              <img src="./img/my_photo.jpg" alt="my_photo" />
+            </div>
+            <div class="about-me__info">
+              <div class="above_title">Про меня</div>
+              <h1 class="title">Меня зовут Валентин</h1>
+              <div class="about-me__descr">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+                quaerat aperiam repellat accusantium nostrum officia modi vel,
+                accusamus nulla rerum odio architecto numquam atque magnam!
+                Animi harum officiis quisquam sapiente.
+              </div>
+              <ul class="about-me__skills">
+                <li class="skill">
+                  <div class="skill__img"><i class="fa-solid fa-code"></i></div>
+                  <div class="skill__info">
+                    <div class="skill__title">Web-разработка</div>
+                    <div class="skill__descr">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </li>
+                <li class="skill">
+                  <div class="skill__img">
+                    <i class="fa-brands fa-react"></i>
+                  </div>
+                  <div class="skill__info">
+                    <div class="skill__title">React-разработка</div>
+                    <div class="skill__descr">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </li>
+                <li class="skill">
+                  <div class="skill__img">
+                    <i class="fa-solid fa-laptop-code"></i>
+                  </div>
+                  <div class="skill__info">
+                    <div class="skill__title">Верстальщик</div>
+                    <div class="skill__descr">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-          <button class="main-menu__close"><span></span><span></span></button>
-        </nav>
-        <div class="bg_menu"></div>
-      </div>
-    </section>
-    <section class="about-me">
-      <div class="container">
-        <div class="about-me__wrapper">
-          <div class="about-me__photo">
-            <img src="./img/my_photo.jpg" alt="my_photo" />
-          </div>
-          <div class="about-me__info">
-            <div class="above_title">Про меня</div>
-            <h1 class="title">Меня зовут Валентин</h1>
-            <div class="about-me__descr">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
-              quaerat aperiam repellat accusantium nostrum officia modi vel,
-              accusamus nulla rerum odio architecto numquam atque magnam! Animi
-              harum officiis quisquam sapiente.
-            </div>
-            <ul class="about-me__skills">
-              <li class="skill">
-                <div class="skill__img"><i class="fa-solid fa-code"></i></div>
-                <div class="skill__info">
-                  <div class="skill__title">Web-разработка</div>
-                  <div class="skill__descr">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+        </div>
+      </section>
+      <section class="benefit" id="benefit">
+        <div class="container">
+          <div class="above_title">Опыт</div>
+          <h1 class="title">Чем я буду полезна</h1>
+          <div class="benefit__wrapper">
+            <ul class="list">
+              <li class="list__descr">Образование</li>
+              <li class="list__element">
+                <div class="list__img">
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="list__info">
+                  <h2 class="list__title">Среднее образование</h2>
+                  <div class="list__subtitle">
+                    Атестат об среднем образование
                   </div>
                 </div>
               </li>
-              <li class="skill">
-                <div class="skill__img"><i class="fa-brands fa-react"></i></div>
-                <div class="skill__info">
-                  <div class="skill__title">React-разработка</div>
-                  <div class="skill__descr">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+              <li class="list__element">
+                <div class="list__img">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="list__info">
+                  <h2 class="list__title">Udemy</h2>
+                  <div class="list__subtitle">Курсы по Web-разработке</div>
+                </div>
+              </li>
+            </ul>
+            <ul class="list">
+              <li class="list__descr">Опыт работы</li>
+              <li class="list__element">
+                <div class="list__img">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="list__info">
+                  <h2 class="list__title">Работа в команде</h2>
+                  <div class="list__subtitle">
+                    Разработка коммерческого проекта
                   </div>
                 </div>
               </li>
-              <li class="skill">
-                <div class="skill__img">
-                  <i class="fa-solid fa-laptop-code"></i>
+              <li class="list__element">
+                <div class="list__img">
+                  <i class="fa-solid fa-handshake"></i>
                 </div>
-                <div class="skill__info">
-                  <div class="skill__title">Верстальщик</div>
-                  <div class="skill__descr">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </div>
+                <div class="list__info">
+                  <h2 class="list__title">Проектная работа</h2>
+                  <div class="list__subtitle">Проекты различной сложности</div>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="benefit">
-      <div class="container">
-        <div class="above_title">Опыт</div>
-        <h1 class="title">Чем я буду полезна</h1>
-        <div class="benefit__wrapper">
-          <ul class="list">
-            <li class="list__descr">Образование</li>
-            <li class="list__element">
-              <div class="list__img">
-                <i class="fa-solid fa-school"></i>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="above_title">Навыки</div>
+          <h1 class="title">Что я использую в работе</h1>
+          <div class="skills__wrapper">
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/HTML.webp" />
+                  <img src="./img/use/HTML.png" alt="HTML5" />
+                </picture>
               </div>
-              <div class="list__info">
-                <h2 class="list__title">Среднее образование</h2>
-                <div class="list__subtitle">Атестат об среднем образование</div>
-              </div>
-            </li>
-            <li class="list__element">
-              <div class="list__img">
-                <i class="fa-solid fa-graduation-cap"></i>
-              </div>
-              <div class="list__info">
-                <h2 class="list__title">Udemy</h2>
-                <div class="list__subtitle">Курсы по Web-разработке</div>
-              </div>
-            </li>
-          </ul>
-          <ul class="list">
-            <li class="list__descr">Опыт работы</li>
-            <li class="list__element">
-              <div class="list__img">
-                <i class="fa-solid fa-user-group"></i>
-              </div>
-              <div class="list__info">
-                <h2 class="list__title">Работа в команде</h2>
-                <div class="list__subtitle">
-                  Разработка коммерческого проекта
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">HTML5</h3>
+                <div class="skills-item__descr">
+                  Именно он создает каркас вашего сайта или приложения, а пятая
+                  версия позволит мне создавать более SEO-оптимизированную
+                  структуру вашего продукта
                 </div>
               </div>
-            </li>
-            <li class="list__element">
-              <div class="list__img">
-                <i class="fa-solid fa-handshake"></i>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/css.webp" />
+                  <img src="./img/use/css.png" alt="css" />
+                </picture>
               </div>
-              <div class="list__info">
-                <h2 class="list__title">Проектная работа</h2>
-                <div class="list__subtitle">Проекты различной сложности</div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">CSS3</h3>
+                <div class="skills-item__descr">
+                  Этот язык стилей позволяет мне создавать абсолютно любой
+                  внешний вид вашего сайта или приложения. Все ограничивается
+                  только вашей фантазией!
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/js.webp" />
+                  <img src="./img/use/js.webp" alt="JS" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">Java Script</h3>
+                <div class="skills-item__descr">
+                  Этот язык программирования позволяет оживить все что угодно:
+                  слайдеры, окна, подсказки, вкладки, получение данных от
+                  сервера и многое другое
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/Jquery.webp" />
+                  <img src="./img/use/Jquery.png" alt="Jquery" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">Jquery</h3>
+                <div class="skills-item__descr">
+                  Библиотека Jquery позволит ускорить разработку. Без
+                  необходимости интегрировать в проект мы её не будем, но навык
+                  работы с ней присутствует
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/React.webp" />
+                  <img src="./img/use/React.png" alt="React" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">React</h3>
+                <div class="skills-item__descr">
+                  Эта библиотека позволяет создавать web-приложения. Мы можем
+                  создать максимально интерактивный продукт именно под ваши цели
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/Node.webp" />
+                  <img src="./img/use/Node.png" alt="Node" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">Node</h3>
+                <div class="skills-item__descr">
+                  Эта платформа позволяет создавать бэкенд для вашего продукта -
+                  “мозги”, которые будут выполнять действия, которые
+                  пользователь не видит
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/git.webp" />
+                  <img src="./img/use/git.png" alt="git" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">Git</h3>
+                <div class="skills-item__descr">
+                  Git — это система, которая позволяет сразу нескольким
+                  разработчикам сохранять и отслеживать изменения в файлах
+                  вашего проекта
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/gulp.webp" />
+                  <img src="./img/use/gulp.png" alt="gulp" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">Gulp</h3>
+                <div class="skills-item__descr">
+                  Gulp - это инструмент для автоматизации рутинных задач,
+                  которые возникают при веб-разработке.
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/Redux.webp" />
+                  <img src="./img/use/Redux.png" alt="Redux" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">Redux</h3>
+                <div class="skills-item__descr">
+                  Redux — библиотека управления состоянием приложений,
+                  написанных на JavaScript. Она помогает писать приложения,
+                  которые ведут себя стабильно/предсказуемо
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__img">
+                <picture>
+                  <source type="image/webp" srcset="./img/use/sass.webp" />
+                  <img src="./img/use/sass.png" alt="sass" />
+                </picture>
+              </div>
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">Sass</h3>
+                <div class="skills-item__descr">
+                  SASS – это препроцессор CSS, основной задачей которого
+                  является расширение возможностей написания CSS кода
+                </div>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item__info">
+                <h3 class="skills-item__title">БЕМ</h3>
+                <div class="skills-item__descr">
+                  Методология БЭМ — это набор универсальных правил, которые
+                  можно применять независимо от используемых технологий
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works" id="works">
+        <div class="container">
+          <div class="above_title">Портфолио</div>
+          <h1 class="title">Мои работы</h1>
+          <div class="works__wrapper">
+            <div class="work">
+              <img src="./img/works/castway.jpg" alt="castway" />
+            </div>
+            <div class="work">
+              <img src="./img/works/pulse.jpg" alt="pulse" />
+            </div>
+            <div class="work">
+              <img src="./img/works/uber.jpg" alt="uber" />
+            </div>
+            <div class="work">
+              <img src="./img/works/wather.jpg" alt="wather" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prices" id="prices">
+        <div class="container">
+          <div class="above_title">Прайс-лист</div>
+          <ul class="prices__list">
+            <li class="price">
+              <div class="price__header">
+                <h4 class="price__title">Landing-page</h4>
+                <div class="price__num">от 4000 руб.</div>
+              </div>
+              <div class="price__descr">
+                Одностраничный сайт для презентации услуг/товаров/...
+              </div>
+            </li>
+            <li class="price">
+              <div class="price__header">
+                <h4 class="price__title">Корпоративный сайт</h4>
+                <div class="price__num">от 10000 руб.</div>
+              </div>
+              <div class="price__descr">
+                Сайт для вашего бизнеса или компании
+              </div>
+            </li>
+            <li class="price">
+              <div class="price__header">
+                <h4 class="price__title">Интернет-магазин</h4>
+                <div class="price__num">от 15000 руб.</div>
+              </div>
+              <div class="price__descr">Инструмент для ваших продаж в сети</div>
+            </li>
+            <li class="price">
+              <div class="price__header">
+                <h4 class="price__title">Web-приложение</h4>
+                <div class="price__num">от 14000 руб.</div>
+              </div>
+              <div class="price__descr">
+                Приложение внутри браузера для лучшего комфорта
               </div>
             </li>
           </ul>
         </div>
-      </div>
-    </section>
-    <section class="skills">
-      <div class="container">
-        <div class="above_title">Навыки</div>
-        <h1 class="title">Что я использую в работе</h1>
-        <div class="skills__wrapper">
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/HTML.webp" />
-                <img src="./img/use/HTML.png" alt="HTML5" />
-              </picture>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact__wrapper">
+            <div class="contact__img">
+              <img src="./img/my_photo.jpg" alt="my_photo" />
             </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">HTML5</h3>
-              <div class="skills-item__descr">
-                Именно он создает каркас вашего сайта или приложения, а пятая
-                версия позволит мне создавать более SEO-оптимизированную
-                структуру вашего продукта
+            <div class="contact__info">
+              <div class="above_title">Контакты</div>
+              <h1 class="title">Свяжитесь со мной</h1>
+              <div class="contact__social">Любым удобным для вас способом:</div>
+              <div class="social__network">
+                <div class="github">
+                  <a href="https://github.com/valek-web"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+                <div class="vk">
+                  <a href="https://vk.com/ziruanov"
+                    ><i class="fa-brands fa-vk"></i
+                  ></a>
+                </div>
+                <div class="telegram">
+                  <a href="https://t.me/valek_120"
+                    ><i class="fa-brands fa-telegram"></i
+                  ></a>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/css.webp" />
-                <img src="./img/use/css.png" alt="css" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">CSS3</h3>
-              <div class="skills-item__descr">
-                Этот язык стилей позволяет мне создавать абсолютно любой внешний
-                вид вашего сайта или приложения. Все ограничивается только вашей
-                фантазией!
+              <div class="contact__form-text">
+                Или оставьте ваши данные и я сам вам напишу:
               </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/js.webp" />
-                <img src="./img/use/js.webp" alt="JS" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">Java Script</h3>
-              <div class="skills-item__descr">
-                Этот язык программирования позволяет оживить все что угодно:
-                слайдеры, окна, подсказки, вкладки, получение данных от сервера
-                и многое другое
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/Jquery.webp" />
-                <img src="./img/use/Jquery.png" alt="Jquery" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">Jquery</h3>
-              <div class="skills-item__descr">
-                Библиотека Jquery позволит ускорить разработку. Без
-                необходимости интегрировать в проект мы её не будем, но навык
-                работы с ней присутствует
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/React.webp" />
-                <img src="./img/use/React.png" alt="React" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">React</h3>
-              <div class="skills-item__descr">
-                Эта библиотека позволяет создавать web-приложения. Мы можем
-                создать максимально интерактивный продукт именно под ваши цели
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/Node.webp" />
-                <img src="./img/use/Node.png" alt="Node" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">Node</h3>
-              <div class="skills-item__descr">
-                Эта платформа позволяет создавать бэкенд для вашего продукта -
-                “мозги”, которые будут выполнять действия, которые пользователь
-                не видит
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/git.webp" />
-                <img src="./img/use/git.png" alt="git" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">Git</h3>
-              <div class="skills-item__descr">
-                Git — это система, которая позволяет сразу нескольким
-                разработчикам сохранять и отслеживать изменения в файлах вашего
-                проекта
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/gulp.webp" />
-                <img src="./img/use/gulp.png" alt="gulp" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">Gulp</h3>
-              <div class="skills-item__descr">
-                Gulp - это инструмент для автоматизации рутинных задач, которые
-                возникают при веб-разработке.
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/Redux.webp" />
-                <img src="./img/use/Redux.png" alt="Redux" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">Redux</h3>
-              <div class="skills-item__descr">
-                Redux — библиотека управления состоянием приложений, написанных
-                на JavaScript. Она помогает писать приложения, которые ведут
-                себя стабильно/предсказуемо
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__img">
-              <picture>
-                <source type="image/webp" srcset="./img/use/sass.webp" />
-                <img src="./img/use/sass.png" alt="sass" />
-              </picture>
-            </div>
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">Sass</h3>
-              <div class="skills-item__descr">
-                SASS – это препроцессор CSS, основной задачей которого является
-                расширение возможностей написания CSS кода
-              </div>
-            </div>
-          </div>
-          <div class="skills-item">
-            <div class="skills-item__info">
-              <h3 class="skills-item__title">БЕМ</h3>
-              <div class="skills-item__descr">
-                Методология БЭМ — это набор универсальных правил, которые можно
-                применять независимо от используемых технологий
-              </div>
+              <form class="form">
+                <div class="form__wrapper">
+                  <div class="form__input">
+                    <input type="text" name="name" id="name_input" />
+                    <label for="name">Ваше имя</label>
+                  </div>
+                  <div class="form__input">
+                    <input type="email" name="email" id="email_input" />
+                    <label for="email">Ваша почта</label>
+                  </div>
+                </div>
+
+                <div class="form__input textarea">
+                  <textarea name="text_message" id="text"></textarea>
+                  <label for="text_message">Ваше сообщение</label>
+                </div>
+
+                <button class="button">Отправить сообщение</button>
+              </form>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
+
     <script
       src="https://kit.fontawesome.com/5da4ab2654.js"
       crossorigin="anonymous"
