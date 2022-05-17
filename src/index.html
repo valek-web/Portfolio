@@ -556,21 +556,34 @@
               <form class="form">
                 <div class="form__wrapper">
                   <div class="form__input">
-                    <input type="text" name="name" id="name_input" />
+                    <input required type="text" name="name" id="name_input" />
                     <label for="name">Ваше имя</label>
                   </div>
                   <div class="form__input">
-                    <input type="email" name="email" id="email_input" />
+                    <input
+                      required
+                      type="email"
+                      name="email"
+                      id="email_input"
+                    />
                     <label for="email">Ваша почта</label>
                   </div>
                 </div>
 
                 <div class="form__input textarea">
-                  <textarea name="text_message" id="text"></textarea>
+                  <textarea required name="text_message" id="text"></textarea>
                   <label for="text_message">Ваше сообщение</label>
                 </div>
-
-                <button class="button">Отправить сообщение</button>
+                <div class="form__triggers">
+                  <button class="button">Отправить сообщение</button>
+                  <div class="form__policy">
+                    <input required type="checkbox" name="policy" id="policy" />
+                    <label for="policy"
+                      >Я согласен(а) с
+                      <a href="">политикой конфиденциальности</a>
+                    </label>
+                  </div>
+                </div>
               </form>
             </div>
           </div>

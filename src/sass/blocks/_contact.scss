@@ -70,6 +70,29 @@
       }
     }
 
+    &__triggers {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    &__policy {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      input {
+        margin-right: 10px;
+      }
+      a {
+        color: rgb(173, 1, 189);
+      }
+    }
+
     &__input {
       position: relative;
       input {
@@ -116,7 +139,6 @@
     .button {
       width: 219px;
       height: 45px;
-      margin-top: 30px;
     }
   }
 }
