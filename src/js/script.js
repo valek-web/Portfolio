@@ -1,3 +1,4 @@
+const axios = require('axios')
 const close_menu = document.querySelector('.main-menu__close')
 const bg_menu = document.querySelector('.bg_menu')
 const main_menu = document.querySelector('.main-menu')
@@ -23,3 +24,15 @@ for (let i = 0; i < menu_link.length; i++) {
     hamburger.classList.toggle('hamburger-animation')
   })
 }
+
+axios
+  .post('./../mailer/smart.php', {
+    firstName: 'Fred',
+    lastName: 'Flintstone',
+  })
+  .then(function (response) {
+    console.log(response)
+  })
+  .catch(function (error) {
+    console.log(error)
+  })
