@@ -1,9 +1,9 @@
-const axios = require('axios')
 const close_menu = document.querySelector('.main-menu__close')
 const bg_menu = document.querySelector('.bg_menu')
 const main_menu = document.querySelector('.main-menu')
 const hamburger = document.querySelector('.hamburger')
 const menu_link = document.querySelectorAll('.main-menu__link')
+const form = document.querySelector('.form')
 
 hamburger.addEventListener('click', () => {
   bg_menu.classList.toggle('bg_menu__active')
@@ -25,14 +25,14 @@ for (let i = 0; i < menu_link.length; i++) {
   })
 }
 
-axios
-  .post('./../mailer/smart.php', {
-    firstName: 'Fred',
-    lastName: 'Flintstone',
-  })
-  .then(function (response) {
-    console.log(response)
-  })
-  .catch(function (error) {
-    console.log(error)
-  })
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+  let elem = e.target
+  let formDate = {
+    name: elem.querySelector('[name="name"]').value,
+    email: elem.querySelector('[name="email"]').value,
+    message: elem.querySelector('[name="text_message"]').value,
+  }
+
+  axios.post('mailer/smart.php', { ...formDate })
+})
