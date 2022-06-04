@@ -1,3 +1,19 @@
+.main {
+  background-color: $bg_color;
+  color: #fff;
+  text-align: justify;
+  h2 {
+    margin-top: 20px;
+  }
+  .home {
+    display: inline-block;
+    padding: 30px;
+    color: $main_color;
+  }
+  .link__home {
+    text-align: center;
+  }
+}
 .contact {
   background-color: $bg_color;
   padding-bottom: 91px;
